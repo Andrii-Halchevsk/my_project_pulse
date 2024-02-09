@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+    .promo {
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+    }
+    .carousel {
+        width: 100%;
+    }
+    .carousel .prev {
+        left: -35px;
+    }
+    .carousel .next {
+        right: -35px;
+    }
+}
+@media (max-width: 991px) {
+    .carousel {
+        width: 100%;
+    }
+    .carousel .prev {
+        left: -20px;
+    }
+    .carousel .next {
+        right: -20px;
+    }
+}
